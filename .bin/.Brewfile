@@ -23,5 +23,12 @@ cask "docker"
 cask "warp"
 cask "notion"
 
+# フォント
+cask "font-hackgen"
+cask "font-hackgen-nerd"
+cask "font-plemol-jp"
+cask "font-plemol-jp-nf"
+cask "font-cica"
+
 # Mac App Store
 mas "Magnet マグネット", id: 441258766

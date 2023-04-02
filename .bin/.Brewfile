@@ -20,6 +20,7 @@ brew "sheldon"	# Shell plugin manage
 cask "visual-studio-code"
 cask "google-chrome"
 cask "docker"
+cask "iterm2"
 cask "warp"
 cask "notion"
 

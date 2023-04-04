@@ -15,6 +15,9 @@ brew "mas"	# Mac App Store command line interface
 brew "asdf"	# Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
 brew "yarn"
 brew "sheldon"	# Shell plugin manage
+brew "awscli"
+brew "saml2aws"
+
 
 # デスクトップアプリケーション
 cask "visual-studio-code"

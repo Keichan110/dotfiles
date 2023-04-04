@@ -1,3 +1,15 @@
+path=(
+  /opt/homebrew/bin(N-/)
+  /opt/homebrew/sbin(N-/)
+  /usr/bin
+  /usr/sbin
+  /bin
+  /sbin
+  /usr/local/bin(N-/)
+  /usr/local/sbin(N-/)
+  /Library/Apple/usr/bin
+)
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -7,6 +19,11 @@ fi
 
 # 色を使用
 autoload -Uz colors ; colors
+
+# lsのカラー表示
+export LSCOLORS=cxfxcxdxbxegedabagacad
+alias ll='ls -lGF'
+alias ls='ls -GF'
 
 # 新しいコマンドを即認識
 zstyle ":completion:*:commands" rehash 1

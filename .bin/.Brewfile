@@ -26,6 +26,7 @@ cask "docker"
 cask "iterm2"
 cask "warp"
 cask "notion"
+cask "postman"
 
 # フォント
 cask "font-hackgen"

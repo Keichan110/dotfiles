@@ -1262,7 +1262,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>PlemolJPConsole-Regular 13</string>
+			<string>PlemolJPConsoleNF-Regular 13</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1322,7 +1322,7 @@
 			<key>Title Components</key>
 			<integer>386</integer>
 			<key>Transparency</key>
-			<real>0.30940529734817979</real>
+			<real>0.29940529734817978</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>

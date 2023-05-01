@@ -27,6 +27,7 @@ cask "iterm2"
 cask "warp"
 cask "notion"
 cask "postman"
+cask "raycast"
 
 # フォント
 cask "font-hackgen"
@@ -36,4 +37,4 @@ cask "font-plemol-jp-nf"
 cask "font-cica"
 
 # Mac App Store
-mas "Magnet マグネット", id: 441258766
+# mas "Magnet マグネット", id: 441258766

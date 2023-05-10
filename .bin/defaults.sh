@@ -28,12 +28,34 @@ sudo systemsetup -setrestartfreeze on
 
 # ====================
 #
+# Desktop
+#
+# ====================
+
+# .DS_Storeファイルを作らせない
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+
+# ====================
+#
 # Dock
 #
 # ====================
 
 # アプリケーション起動時のアニメーションを無効化
 defaults write com.apple.dock launchanim -bool false
+
+# ====================
+#
+# Trackpad
+#
+# ====================
+
+# タップでクリック
+defaults write -g com.apple.AppleMultitouchTrackpad Clicking -int 1
+
+# 三本指でドラッグ
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true && \
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 
 # ====================
 #

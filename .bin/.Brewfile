@@ -15,6 +15,9 @@ brew "mas"	# Mac App Store command line interface
 brew "asdf"	# Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
 brew "yarn"
 brew "sheldon"	# Shell plugin manage
+brew "awscli"
+brew "saml2aws"
+brew "gitmoji"	# A gitmoji interactive command line tool for using emojis on commits.
 
 # デスクトップアプリケーション
 cask "visual-studio-code"
@@ -23,6 +26,8 @@ cask "docker"
 cask "iterm2"
 cask "warp"
 cask "notion"
+cask "postman"
+cask "raycast"
 
 # フォント
 cask "font-hackgen"
@@ -32,4 +37,4 @@ cask "font-plemol-jp-nf"
 cask "font-cica"
 
 # Mac App Store
-mas "Magnet マグネット", id: 441258766
+# mas "Magnet マグネット", id: 441258766

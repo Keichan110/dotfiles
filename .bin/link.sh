@@ -23,7 +23,6 @@ TARGET_DIR=".config/tmux"
 mkdir -p "${HOME}/${TARGET_DIR}"
 ln -fnsv "${SCRIPT_DIR}/${TARGET_DIR}/default.session.conf" "${HOME}/${TARGET_DIR}"
 
-
 # --------------------------------------------------
 # github関連
 # --------------------------------------------------

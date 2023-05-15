@@ -18,16 +18,18 @@ brew "sheldon"	# Shell plugin manage
 brew "awscli"
 brew "saml2aws"
 brew "gitmoji"	# A gitmoji interactive command line tool for using emojis on commits.
+brew "tmux"
 
 # デスクトップアプリケーション
 cask "visual-studio-code"
 cask "google-chrome"
 cask "docker"
 cask "iterm2"
-cask "warp"
+# cask "warp" # disabled at 2023.15.15
 cask "notion"
 cask "postman"
 cask "raycast"
+cask "alacritty"
 
 # フォント
 cask "font-hackgen"

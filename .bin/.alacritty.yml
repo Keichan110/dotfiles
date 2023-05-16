@@ -9,7 +9,7 @@ import:
 window:
   decorations: buttonless # タイトルバーとボタンを非表示
   startup_mode: Maximized # 最大で起動する
-  opacity: 0.9 # 背景を透過させる
+  opacity: 0.955555 # 背景を透過させる
   padding:
     x: 10
     y: 10
@@ -68,10 +68,20 @@ key_bindings:
   - { key: Right, mods: Command | Shift, chars: "\x01\x1bOC" } # C-a →を送信（Cmd+Shift+→で右のペインに移動）
   - { key: Up, mods: Command | Shift, chars: "\x01\x1bOA" } # C-a ↑を送信（Cmd+Shift+↑で上のペインに移動）
   - { key: Down, mods: Command | Shift, chars: "\x01\x1bOB" } # C-a ↓を送信（Cmd+Shift+↓で下のペインに移動）
+  - { key: Key1, mods: Command, chars: "\x01\x31" } # C-a 1を送信（Cmd+1で1番目のウインドウに移動）
+  - { key: Key2, mods: Command, chars: "\x01\x32" } # C-a 2を送信（Cmd+2で2番目のウインドウに移動）
+  - { key: Key3, mods: Command, chars: "\x01\x33" } # C-a 3を送信（Cmd+3で3番目のウインドウに移動）
+  - { key: Key4, mods: Command, chars: "\x01\x34" } # C-a 4を送信（Cmd+4で4番目のウインドウに移動）
+  - { key: Key5, mods: Command, chars: "\x01\x35" } # C-a 5を送信（Cmd+5で5番目のウインドウに移動）
+  - { key: Key6, mods: Command, chars: "\x01\x36" } # C-a 6を送信（Cmd+6で6番目のウインドウに移動）
+  - { key: Key7, mods: Command, chars: "\x01\x37" } # C-a 7を送信（Cmd+7で7番目のウインドウに移動）
+  - { key: Key8, mods: Command, chars: "\x01\x38" } # C-a 8を送信（Cmd+8で8番目のウインドウに移動）
+  - { key: Key9, mods: Command, chars: "\x01\x39" } # C-a 9を送信（Cmd+9で9番目のウインドウに移動）
 
 shell:
   program: /bin/zsh
   args:
     - -l
+    - -i
     - -c
     - 'tmux a -t default || tmux new -s default\; source ~/.config/tmux/default.session.conf'

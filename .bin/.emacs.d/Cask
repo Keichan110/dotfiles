@@ -1,0 +1,38 @@
+(source gnu)
+(source melpa)
+(source marmalade)
+
+;; Auto-complete
+(depends-on "auto-complete")
+(depends-on "fuzzy")
+(depends-on "popup")
+
+;; Anything
+(depends-on "anything")
+
+;; Color-theme
+(depends-on "solarized-theme")
+
+;; Progmodes
+(depends-on "ruby-mode")
+(depends-on "coffee-mode")
+(depends-on "yaml-mode")
+
+;; Ruby
+(depends-on "ruby-end")
+(depends-on "ruby-block")
+
+;; Yasnippet
+(depends-on "yasnippet")
+
+;; Auto-save
+(depends-on "auto-save-buffers-enhanced")
+
+;; Git
+(depends-on "magit")
+
+;; Smooth-Scroll
+(depends-on "smooth-scroll")
+
+;; Frame-Restore
+(depends-on "frame-restore")

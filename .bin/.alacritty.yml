@@ -9,17 +9,17 @@ import:
 window:
   decorations: buttonless # タイトルバーとボタンを非表示
   startup_mode: Maximized # 最大で起動する
-  opacity: 0.955555 # 背景を透過させる
+  opacity: 1 # 背景を透過させる
   padding:
     x: 10
-    y: 10
+    y: 4
   decorations_theme_variant: Dark # ダークテーマ
 
 scrolling:
   history: 10000
 
 font:
-  size: 14 # フォントサイズ
+  size: 13 # フォントサイズ
   normal:
     family: "PlemolJP35 Console NF"
     style: Regular

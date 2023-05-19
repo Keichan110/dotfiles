@@ -19,6 +19,7 @@ brew "awscli"
 brew "saml2aws"
 brew "gitmoji"	# A gitmoji interactive command line tool for using emojis on commits.
 brew "tmux"
+brew "wget"
 
 # デスクトップアプリケーション
 cask "visual-studio-code"

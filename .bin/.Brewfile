@@ -11,6 +11,7 @@ tap "homebrew/cask-fonts"
 # CLIアプリケーション
 brew "git"
 brew "git-secrets"
+brew "ghq" # Remote repository management made easy
 brew "mas"	# Mac App Store command line interface
 brew "asdf"	# Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
 brew "yarn"
@@ -25,8 +26,8 @@ brew "wget"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "docker"
-cask "iterm2"
-# cask "warp" # disabled at 2023.15.15
+; cask "iterm2" # disabled at 2023.05.22
+# cask "warp" # disabled at 2023.05.15
 cask "notion"
 cask "postman"
 cask "raycast"

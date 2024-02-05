@@ -10,6 +10,9 @@ path=(
   /Library/Apple/usr/bin
 )
 
+# import aliases
+source ~/.zsh_aliases
+
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 

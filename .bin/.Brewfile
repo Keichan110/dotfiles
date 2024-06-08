@@ -21,6 +21,7 @@ brew "saml2aws"
 brew "gitmoji"	# A gitmoji interactive command line tool for using emojis on commits.
 brew "tmux"
 brew "wget"
+brew "im-select"
 
 # デスクトップアプリケーション
 cask "visual-studio-code"

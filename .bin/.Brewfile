@@ -26,7 +26,7 @@ brew "wget"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "docker"
-; cask "iterm2" # disabled at 2023.05.22
+# cask "iterm2" # disabled at 2023.05.22
 # cask "warp" # disabled at 2023.05.15
 cask "notion"
 cask "postman"

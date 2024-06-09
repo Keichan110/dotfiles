@@ -69,6 +69,15 @@ defaults write com.apple.dock springboard-hide-duration -float 0.1
 
 # ====================
 #
+# Mission Contorl
+#
+# ====================
+# 最新の使用状況に基づいて操作スペースを自動的に並び替える
+defaults write com.apple.dock mru-spaces -bool false
+
+
+# ====================
+#
 # Menu Bar
 #
 # ====================

@@ -11,6 +11,7 @@ tap "homebrew/cask-fonts"
 # CLIアプリケーション
 brew "git"
 brew "git-secrets"
+brew "gh"
 brew "ghq" # Remote repository management made easy
 brew "mas"	# Mac App Store command line interface
 brew "asdf"	# Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more

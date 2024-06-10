@@ -38,11 +38,6 @@ function chpwd() { ls }
 
 # lsのカラー表示
 export LSCOLORS=cxfxcxdxbxegedabagacad
-alias ll='ls -lGF'
-alias ls='ls -GF'
-
-# grepでヒットした文字列を強調
-alias grep="grep --color"
 
 # 新しいコマンドを即認識
 zstyle ":completion:*:commands" rehash 1

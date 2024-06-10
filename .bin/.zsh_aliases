@@ -1,2 +1,17 @@
-# bundle
-alias be='bundle exec'
+# ls
+alias ls='ls -GF'
+alias ll='ls -lhAGF'
+alias la='ls -AGF'
+# cd
+alias ..='cd ..'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+# grep
+alias grep="grep --color"
+# confirm
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+# 1word
+alias c='clear'
+alias q='exit'

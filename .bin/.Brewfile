@@ -34,6 +34,7 @@ cask "notion"
 cask "postman"
 cask "raycast"
 cask "alacritty"
+cask "wezterm"
 
 # フォント
 cask "font-hackgen"

@@ -23,7 +23,15 @@ ln -fnsv "${SCRIPT_DIR}/${TARGET_DIR}/plugins.toml" "${HOME}/${TARGET_DIR}"
 TARGET_DIR=".config/tmux"
 mkdir -p "${HOME}/${TARGET_DIR}"
 ln -fnsv "${SCRIPT_DIR}/${TARGET_DIR}/default.session.conf" "${HOME}/${TARGET_DIR}"
-
+# wezterm
+TARGET_DIR=".config/wezterm"
+mkdir -p "${HOME}/${TARGET_DIR}"
+for file in ${SCRIPT_DIR}/${TARGET_DIR}/*.lua; do
+    ln -fnsv "$dotfile" "${HOME}/${TARGET_DIR}"
+done
+for file in ${SCRIPT_DIR}/${TARGET_DIR}/*.sh; do
+    cp -i "$file" "${HOME}/${TARGET_DIR}"
+done
 # --------------------------------------------------
 # github関連
 # --------------------------------------------------

@@ -10,14 +10,12 @@ path=(
   /Library/Apple/usr/bin
 )
 
-# import aliases
-source ~/.zsh_aliases
+source ~/.zsh_aliases # import aliases
+bindkey -e # Ctrl+AやCtrl+Bが^Aのようになる対策
 
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh # asdf
 
-# editor
-export EDITOR='vim'
+export EDITOR='vim' # editor
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -26,47 +24,31 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# 色を使用
-autoload -Uz colors ; colors
-
-# 補完機能を有効
-autoload -Uz compinit ; compinit
+autoload -Uz colors ; colors # 色を使用
+autoload -Uz compinit ; compinit # 補完機能を有効
 
 # cdとlsの省略
 setopt auto_cd
 function chpwd() { ls }
 
-# lsのカラー表示
-export LSCOLORS=cxfxcxdxbxegedabagacad
+export LSCOLORS=cxfxcxdxbxegedabagacad # lsのカラー表示
 
-# 新しいコマンドを即認識
-zstyle ":completion:*:commands" rehash 1
+zstyle ":completion:*:commands" rehash 1 # 新しいコマンドを即認識
 
-# 日本語ファイル名を表示可能に
-setopt print_eight_bit
-
-# Sheldonをロード
-eval "$(sheldon source)"
+eval "$(sheldon source)" # Sheldonをロード
 
 # historyの保存数を増やす
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
 
-# 同時に起動した zsh の間でヒストリを共有する
-setopt share_history
+setopt print_eight_bit # 日本語ファイル名を表示可能に
+setopt share_history # 同時に起動した zsh の間でヒストリを共有する
+setopt hist_ignore_dups # 直前と同じコマンドの場合はヒストリに追加しない
+setopt hist_ignore_all_dups # 同じコマンドをヒストリに残さない
+setopt hist_reduce_blanks # ヒストリに保存するときに余分なスペースを削除する
+setopt hist_ignore_space  # 先頭にスペースがある場合はヒストリに残さない
 
-# 直前と同じコマンドの場合はヒストリに追加しない
-setopt hist_ignore_dups
-
-# 同じコマンドをヒストリに残さない
-setopt hist_ignore_all_dups
-
-# ヒストリに保存するときに余分なスペースを削除する
-setopt hist_reduce_blanks
-
-# 先頭にスペースがある場合はヒストリに残さない
-setopt hist_ignore_space
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

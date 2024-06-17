@@ -23,6 +23,9 @@ config.window_background_gradient = {
     '#2E3440',
   },
 }
+config.colors = {
+  split = '#4C566A'
+}
 
 config.use_fancy_tab_bar = false
 

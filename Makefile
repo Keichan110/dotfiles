@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew asdf git_alias
+all: init link defaults brew asdf git
 
 # Set initial preference.
 init:

@@ -6,24 +6,25 @@ return {
     -- Custom
     {
       key = 'u',
-      mods = 'CMD',
+      mods = 'SUPER',
       action = act { EmitEvent = "toggle-opacity" },
     },
     {
       key = 'w',
-      mods = 'CMD',
+      mods = 'SUPER',
       action = act.CloseCurrentPane { confirm = true },
     },
     {
       key = 'd',
-      mods = 'CMD',
+      mods = 'SUPER',
       action = act.SplitVertical { domain = 'CurrentPaneDomain' }
     },
     {
       key = 'd',
-      mods = 'SHIFT|CMD',
+      mods = 'SHIFT|SUPER',
       action = act.SplitHorizontal { domain = 'CurrentPaneDomain' }
     },
+    { key = 'Enter', mods = 'SHIFT|SUPER', action = act.TogglePaneZoomState },
     -- Default
     { key = 'Tab', mods = 'CTRL', action = act.ActivateTabRelative(1) },
     { key = 'Tab', mods = 'SHIFT|CTRL', action = act.ActivateTabRelative(-1) },

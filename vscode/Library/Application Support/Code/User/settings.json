@@ -1,0 +1,381 @@
+{
+  // Window
+  "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderMedium}${separator}${rootName}",
+  "window.zoomLevel": -0.7,
+  "window.newWindowDimensions": "inherit", // 既に開いているウインドウと同じサイズで新しいウインドウを開く
+  // Files
+  "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
+  "files.trimTrailingWhitespace": true,
+  // "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
+  "files.autoGuessEncoding": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 16,
+  "workbench.activityBar.location": "top",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3B4252",
+    "statusBar.noFolderBackground": "#3B4252",
+    "statusBar.debuggingBackground": "#3B4252",
+    "statusBar.foreground": "#D8DEE9",
+    "statusBar.debuggingForeground": "#D8DEE9"
+  },
+  // VSCodeVim
+  "vim.easymotion": false, // 基本的な動作を覚えるため一旦無効化
+  "vim.surround": false, // 基本的な動作を覚えるため一旦無効化
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.timeout": 500, // 入力のタイムアウト
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.visualstar": true, // *でカーソル上のワードを検索
+  "vim.handleKeys": {
+    "<C-n>": false,
+    "<C-p>": false,
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-a>": false,
+    "<C-e>": false
+  },
+  "vim.cursorStylePerMode.insert": "line-thin", // insertモード時はカーソルをlineに
+  "vim.cursorStylePerMode.normal": "block", // normalモード時はカーソルをblockに
+  "vim.smartRelativeLine": true, // 行数を相対的に表示
+  // yank時のhighlight
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#5E81AC",
+  "vim.highlightedyank.duration": 700,
+  // 入力切り替え
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
+  "vim.autoSwitchInputMethod.enable": true,
+  // Status Bar
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": ["#3B4252", "#D8DEE9"],
+  "vim.statusBarColors.insert": ["#88C0D0", "#3B4252"],
+  "vim.statusBarColors.visual": ["#8FBCBB", "#3B4252"],
+  "vim.statusBarColors.replace": ["#B48EAD", "#3B4252"],
+  "vim.statusBarColors.commandlineinprogress": ["#81A1C1", "#3B4252"],
+  "vim.statusBarColors.searchinprogressmode": ["#81A1C1", "#3B4252"],
+  // Vim Insert Mode Key Bindings
+  "vim.insertModeKeyBindings": [
+    // ESCの代用
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "key": ["<C-p>"],
+      "commands": ["cursorUp"]
+    },
+    {
+      "key": ["<C-n>"],
+      "commands": ["cursorBottom"]
+    },
+    {
+      "key": ["<C-b>"],
+      "commands": ["cursorLeft"]
+    },
+    {
+      "key": ["<C-f>"],
+      "commands": ["cursorRight"]
+    },
+    {
+      "key": ["<C-a>"],
+      "commands": ["cursorLineStart"]
+    },
+    {
+      "key": ["<C-e>"],
+      "commands": ["cursorLineEnd"]
+    }
+  ],
+  // Vim Normal Mode Key Bindings
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // ;, :を入れ替える
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [":"],
+      "after": [";"]
+    }
+  ],
+  // Vim Visual Mode Key Bindings
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // ESCの代用
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    // ;, :を入れ替える
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [":"],
+      "after": [";"]
+    }
+  ],
+  // Editor
+  "editor.cursorStyle": "block",
+  "editor.cursorSurroundingLines": 7, // カーソル周辺の表示範囲
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.fontFamily": "PlemolJP, HackGen-Regular, Cica",
+  "editor.fontSize": 14.5,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.smoothScrolling": true,
+  "editor.minimap.side": "left", // ミニマップの表示位置
+  "editor.minimap.enabled": false, // ミニマップを常に表示(disabled)
+  "editor.minimap.maxColumn": 40, // ミニマップの幅
+  "editor.minimap.renderCharacters": false, // ミニマップ文字の簡易表示
+  "editor.minimap.showSlider": "always", // ミニマップのスライダーを常に表示
+  "editor.minimap.size": "fill", // ミニマップの縮尺
+  "editor.scrollbar.verticalScrollbarSize": 25, // 垂直スクロールバーのサイズ
+  "editor.scrollbar.vertical": "visible",
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnPaste": false, // ペースト時に自動でフォーマット
+  "editor.formatOnType": false, // 入力した行を自動でフォーマット
+  "editor.formatOnSave": true, // 保存した時に自動でフォーマット
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.renderControlCharacters": true, // 制御文字を表示する
+  "editor.renderLineHighlight": "all", // 選択行の行番号をハイライトする
+  "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅するように
+  "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示する
+  "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
+  "editor.glyphMargin": true, // ブレークポイントの余白
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ガイドライン
+  "editor.rulers": [100, 120],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "PlemolJP",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // Ruby
+  "rubyLsp.rubyVersionManager": {
+    "manager": "asdf"
+  },
+  "rubyLsp.formatter": "syntax_tree",
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "Shopify.ruby-lsp" // currently broken
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true,
+    "editor.formatOnType": true
+  },
+  "[javascript]": {
+    "eslint.autoFixOnSave": true
+  },
+  "[typescript]": {
+    "eslint.autoFixOnSave": true
+  },
+  "[javascriptreact]": {
+    "eslint.autoFixOnSave": true
+  },
+  "[typescriptreact]": {
+    "eslint.autoFixOnSave": true
+  },
+  // Terminal
+  "terminal.external.osxExec": "Alacritty.app",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "'PlemolJP Console', 'HackGen Console', 'Cica'",
+  // Markdown
+  "markdownlint.config": {
+    "MD024": false
+  },
+  "markdown.preview.breaks": true,
+  "markdown.preview.fontSize": 10,
+  // Markdownの場合は空白トリミングは実施しない
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  // Yamlの場合は空白トリミングは実施しない
+  "[yaml]": {
+    "files.trimTrailingWhitespace": false
+  },
+  // OUTPUTの設定
+  "[log][Log]": {
+    "editor.fontSize": 12
+  },
+  // GitLens
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "gitlens.codeLens.scopes": ["document", "containers"],
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.views.commits.avatars": false,
+  "gitlens.views.formats.commits.description": "${author, }${date}",
+  "gitlens.views.formats.stashes.description": "${stashOnRef, }${date}",
+  "gitlens.blame.format": "${message|50?} ${date}",
+  "gitlens.statusBar.format": "${author}, ${date} ${' via 'pullRequest}",
+  "gitlens.defaultDateFormat": "YYYY/MM/DD HH:mm:ss",
+  "gitlens.defaultTimeFormat": "HH:mm:ss",
+  "gitlens.defaultGravatarsStyle": "mp",
+  "gitlens.menus": {
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "graph": true
+    },
+    "scmRepositoryInline": {
+      "graph": true
+    },
+    "scmRepository": {
+      "authors": true,
+      "graph": false
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItemInline": {},
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": true, // gitの空白無視
+  // VSNotes
+  "vsnotes.defaultNotePath": "~/notes",
+  "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",
+  "vsnotes.tokens": [
+    {
+      "type": "datetime",
+      "token": "{dt}",
+      "format": "YYYYMMDD",
+      "description": "Insert formatted datetime."
+    },
+    {
+      "type": "title",
+      "token": "{title}",
+      "description": "Insert note title from input box.",
+      "format": "Untitled"
+    },
+    {
+      "type": "extension",
+      "token": "{ext}",
+      "description": "Insert file vsnotes.",
+      "format": "md"
+    }
+  ],
+  "vsnotes.templates": ["memo"],
+  // Default Template
+  "vsnotes.defaultSnippet": {
+    "langId": "markdown",
+    "name": "vsnote_template_memo"
+  },
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,
+  // LiveServer
+  "liveServer.settings.CustomBrowser": "chrome",
+  //
+  "redhat.telemetry.enabled": true,
+  "prettier.printWidth": 100,
+  "editor.inlineSuggest.enabled": true,
+  // 非同期設定項目
+  "settingsSync.ignoredSettings": [
+    "liveServer.settings.AdvanceCustomBrowserCmdLine",
+    "remote.SSH.remotePlatform"
+  ],
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.colorTheme": "Nord",
+  "projectManager.git.baseFolders": ["~/src"],
+  "editor.hover.delay": 1000,
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.gitProtocol": "ssh",
+  "update.showReleaseNotes": false,
+  "github.copilot.chat.localeOverride": "ja",
+  "rdbg.rubyVersionManager": "asdf",
+  "sorbet.lspConfigs": [
+    {
+      "id": "stable",
+      "name": "Sorbet",
+      "description": "Stable Sorbet Ruby IDE features",
+      "cwd": "${workspaceFolder}",
+      "command": ["bundle", "exec", "srb", "typecheck", "--lsp", "--disable-watchman"]
+    }
+  ],
+  "github.copilot.editor.enableAutoCompletions": true
+}

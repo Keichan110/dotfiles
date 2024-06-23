@@ -21,6 +21,7 @@ brew "wget"
 brew "im-select"
 brew "powerlevel10k"
 brew "bat"
+brew "eza"
 
 # Desktop App
 cask "visual-studio-code"

@@ -22,6 +22,7 @@ brew "im-select"
 brew "powerlevel10k"
 brew "bat"
 brew "eza"
+brew "fd"
 
 # Desktop App
 cask "visual-studio-code"

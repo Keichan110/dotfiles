@@ -16,3 +16,5 @@ alias rm='rm -i'
 alias c='clear'
 alias g='git'
 alias q='exit'
+# bat
+alias cat='bat -p --theme Nord'

@@ -20,6 +20,7 @@ brew "tmux"
 brew "wget"
 brew "im-select"
 brew "powerlevel10k"
+brew "bat"
 
 # Desktop App
 cask "visual-studio-code"

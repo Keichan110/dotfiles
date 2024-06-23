@@ -24,6 +24,7 @@ brew "bat"
 brew "eza"
 brew "fd"
 brew "ripgrep"
+brew "procs"
 
 # Desktop App
 cask "visual-studio-code"

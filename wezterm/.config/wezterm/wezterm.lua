@@ -58,10 +58,10 @@ config.window_decorations = "RESIZE"
 
 -- Font
 config.font = wezterm.font_with_fallback {
-  'PlemolJP35 Console NF',
-  'PlemolJP Console NF',
-  'HackGen35 Console NF',
-  'HackGen Console NF',
+  { family = 'PlemolJP Console', weight = 'Regular', style = 'Normal' },
+  { family = 'HackGen Console', weight = 'Regular', style = 'Normal' },
+  { family = 'Cica', weight = 'Regular', style='Normal' },
+  { family = 'JetBrains Mono', weight = 'Regular', style = 'Normal' }
 }
 config.font_size = 15
 

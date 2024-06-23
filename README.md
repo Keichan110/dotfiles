@@ -22,11 +22,25 @@ macOS 用の dotfiles
 
 <!-- 使い方はここに -->
 
-下記のコマンドを実行してインストール
+1. Clone
 
-```shell
-cd ~ && git clone git@github.com:ito-ito/dotfiles.git && cd ~/dotfiles && make
-```
+   ```shell
+   git clone https://github.com/ito-ito/dotfiles.git ~/dotfiles
+   ```
+
+1. Install Homebrew
+   [Homebrew](https://brew.sh/)
+
+1. Install required packeges
+
+   ```shell
+   brew install stow
+   ```
+
+1. Make
+   ```shell
+   make
+   ```
 
 &emsp;
 

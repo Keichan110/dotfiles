@@ -23,6 +23,7 @@ brew "powerlevel10k"
 brew "bat"
 brew "eza"
 brew "fd"
+brew "ripgrep"
 
 # Desktop App
 cask "visual-studio-code"

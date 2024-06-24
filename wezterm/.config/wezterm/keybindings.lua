@@ -17,12 +17,12 @@ return {
     {
       key = 'd',
       mods = 'SUPER',
-      action = act.SplitVertical { domain = 'CurrentPaneDomain' }
+      action = act.SplitHorizontal { domain = 'CurrentPaneDomain' }
     },
     {
       key = 'd',
       mods = 'SHIFT|SUPER',
-      action = act.SplitHorizontal { domain = 'CurrentPaneDomain' }
+      action = act.SplitVertical { domain = 'CurrentPaneDomain' }
     },
     { key = 'Enter', mods = 'SHIFT|SUPER', action = act.TogglePaneZoomState },
     -- Default

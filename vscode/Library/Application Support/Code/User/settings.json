@@ -10,6 +10,7 @@
   // "files.autoSave": "onFocusChange",
   "files.autoSave": "off",
   "files.autoGuessEncoding": true,
+  "workbench.settings.editor": "json", // defaultでsettings.jsonを開く
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,

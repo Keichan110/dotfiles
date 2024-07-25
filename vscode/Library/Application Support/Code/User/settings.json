@@ -1,8 +1,9 @@
 {
   // Window
-  "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderMedium}${separator}${rootName}",
-  "window.zoomLevel": -0.7,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
   "window.newWindowDimensions": "inherit", // 既に開いているウインドウと同じサイズで新しいウインドウを開く
+  "window.zoomLevel": -0.7,
   // Files
   "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
   "files.trimTrailingWhitespace": true,
@@ -377,5 +378,8 @@
       "command": ["bundle", "exec", "srb", "typecheck", "--lsp", "--disable-watchman"]
     }
   ],
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  }
 }

@@ -381,6 +381,10 @@
   ],
   "github.copilot.editor.enableAutoCompletions": true,
   "apc.electron": {
-    "titleBarStyle": "hidden"
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 8
+    }
   }
 }

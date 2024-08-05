@@ -199,6 +199,7 @@
       }
     ]
   },
+  "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
   // Ruby
   "rubyLsp.rubyVersionManager": {

@@ -16,7 +16,8 @@
   "workbench.list.smoothScrolling": true,
   "workbench.editor.tabSizing": "shrink",
   "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 14,
+  "workbench.tree.renderIndentGuides": "onHover",
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "statusBar.background": "#3B4252",
@@ -198,6 +199,7 @@
       }
     ]
   },
+  "explorer.compactFolders": false,
   // Ruby
   "rubyLsp.rubyVersionManager": {
     "manager": "asdf"
@@ -251,6 +253,7 @@
   "[log][Log]": {
     "editor.fontSize": 12
   },
+  "material-icon-theme.hidesExplorerArrows": true,
   // GitLens
   "gitlens.currentLine.scrollable": false,
   "gitlens.currentLine.enabled": false,

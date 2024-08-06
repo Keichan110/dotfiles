@@ -399,5 +399,9 @@
     "position": "editor-bottom",
     "height": 22,
     "fontSize": 11
+  },
+  "apc.listRow": {
+    "fontSize": 11,
+    "height": 18
   }
 }

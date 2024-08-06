@@ -14,7 +14,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
-  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.tabSizingFixedMaxWidth": 150,
+  "workbench.editor.tabSizingFixedMinWidth": 75,
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "onHover",
@@ -198,7 +200,8 @@
       }
     ]
   },
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.filePath": "last",
+  "breadcrumbs.symbolPath": "last",
   "explorer.compactFolders": false,
   // Ruby
   "rubyLsp.rubyVersionManager": {

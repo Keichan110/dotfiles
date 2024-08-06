@@ -210,7 +210,6 @@
   "rubyLsp.formatter": "syntax_tree",
   "[ruby]": {
     "editor.formatOnSave": true,
-    // "editor.defaultFormatter": "Shopify.ruby-lsp" // currently broken
     "editor.defaultFormatter": "Shopify.ruby-lsp",
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -355,11 +354,6 @@
   "redhat.telemetry.enabled": true,
   "prettier.printWidth": 100,
   "editor.inlineSuggest.enabled": true,
-  // 非同期設定項目
-  "settingsSync.ignoredSettings": [
-    "liveServer.settings.AdvanceCustomBrowserCmdLine",
-    "remote.SSH.remotePlatform"
-  ],
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.folders.theme": "specific",
   "workbench.colorTheme": "Nord",

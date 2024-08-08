@@ -1,5 +1,6 @@
 {
   // Window
+  "window.commandCenter": false,
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
   "window.newWindowDimensions": "inherit", // 既に開いているウインドウと同じサイズで新しいウインドウを開く
@@ -387,13 +388,7 @@
       "y": 8
     }
   },
-  "apc.activityBar": {
-    "position": "bottom",
-    "size": 28,
-    "itemMargin": 5
-  },
   "apc.statusBar": {
-    "position": "editor-bottom",
     "height": 22,
     "fontSize": 11
   },

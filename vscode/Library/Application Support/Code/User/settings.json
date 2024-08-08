@@ -8,8 +8,6 @@
   // Files
   "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
   "files.trimTrailingWhitespace": true,
-  // "files.autoSave": "onFocusChange",
-  "files.autoSave": "onWindowChange",
   "files.autoGuessEncoding": true,
   "workbench.settings.editor": "json", // defaultでsettings.jsonを開く
   "workbench.iconTheme": "material-icon-theme",

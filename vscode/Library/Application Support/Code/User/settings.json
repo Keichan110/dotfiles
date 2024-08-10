@@ -154,6 +154,7 @@
   "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
   "editor.glyphMargin": true, // ブレークポイントの余白
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.selectionHighlight": false,
   // ガイドライン
   "editor.rulers": [100, 120],
   "editor.tokenColorCustomizations": {

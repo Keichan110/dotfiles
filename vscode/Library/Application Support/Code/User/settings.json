@@ -24,7 +24,8 @@
     "statusBar.noFolderBackground": "#3B4252",
     "statusBar.debuggingBackground": "#3B4252",
     "statusBar.foreground": "#D8DEE9",
-    "statusBar.debuggingForeground": "#D8DEE9"
+    "statusBar.debuggingForeground": "#D8DEE9",
+    "editorIndentGuide.background1": "#2E3440"
   },
   // VSCodeVim
   "vim.easymotion": false, // 基本的な動作を覚えるため一旦無効化
@@ -142,7 +143,7 @@
   "editor.minimap.size": "fill", // ミニマップの縮尺
   "editor.scrollbar.verticalScrollbarSize": 25, // 垂直スクロールバーのサイズ
   "editor.scrollbar.vertical": "visible",
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "selection",
   "editor.formatOnPaste": false, // ペースト時に自動でフォーマット
   "editor.formatOnType": false, // 入力した行を自動でフォーマット
   "editor.formatOnSave": true, // 保存した時に自動でフォーマット

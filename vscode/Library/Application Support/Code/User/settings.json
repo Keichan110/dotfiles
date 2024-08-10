@@ -312,6 +312,9 @@
     }
   },
   "diffEditor.ignoreTrimWhitespace": true, // gitの空白無視
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.allowCompoundWords": true,
+  "cSpell.showStatus": false,
   // VSNotes
   "vsnotes.defaultNotePath": "~/notes",
   "vsnotes.defaultNoteTitle": "{dt}_{title}.{ext}",

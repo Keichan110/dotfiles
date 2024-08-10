@@ -28,5 +28,13 @@
     "key": "shift+ctrl+k",
     "command": "extension.vim_ctrl+b",
     "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousEditor"
   }
 ]

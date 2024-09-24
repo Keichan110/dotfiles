@@ -1,10 +1,9 @@
 {
   // Window
   "window.commandCenter": false,
-  "window.customTitleBarVisibility": "never",
-  "window.titleBarStyle": "native",
   "window.newWindowDimensions": "inherit", // 既に開いているウインドウと同じサイズで新しいウインドウを開く
   "window.zoomLevel": -0.7,
+  "window.title": " ",
   // Files
   "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
   "files.trimTrailingWhitespace": true,
@@ -13,6 +12,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.list.smoothScrolling": true,
+  "workbench.editor.showTabs": "none",
   "workbench.editor.tabSizing": "fixed",
   "workbench.editor.tabSizingFixedMaxWidth": 150,
   "workbench.editor.tabSizingFixedMinWidth": 75,
@@ -201,8 +201,8 @@
       }
     ]
   },
-  "breadcrumbs.filePath": "last",
-  "breadcrumbs.symbolPath": "last",
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "off",
   "explorer.compactFolders": false,
   // Ruby
   "[ruby]": {
@@ -374,13 +374,6 @@
     }
   ],
   "github.copilot.editor.enableAutoCompletions": true,
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 10,
-      "y": 8
-    }
-  },
   "apc.statusBar": {
     "height": 22,
     "fontSize": 11

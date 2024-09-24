@@ -18,6 +18,7 @@
   "workbench.editor.tabSizingFixedMinWidth": 75,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "bottom",
+  "workbench.statusBar.visible": false,
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.colorCustomizations": {

@@ -17,6 +17,7 @@
   "workbench.editor.tabSizingFixedMaxWidth": 150,
   "workbench.editor.tabSizingFixedMinWidth": 75,
   "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "bottom",
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.colorCustomizations": {

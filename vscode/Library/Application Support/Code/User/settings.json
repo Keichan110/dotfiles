@@ -368,7 +368,8 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "apc.statusBar": {
     "height": 22,
-    "fontSize": 11
+    "fontSize": 11,
+    "position": "editor-bottom"
   },
   "apc.listRow": {
     "fontSize": 11,

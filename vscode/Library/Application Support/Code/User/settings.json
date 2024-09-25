@@ -143,7 +143,7 @@
   "editor.minimap.renderCharacters": false, // ミニマップ文字の簡易表示
   "editor.minimap.showSlider": "always", // ミニマップのスライダーを常に表示
   "editor.minimap.size": "fill", // ミニマップの縮尺
-  "editor.scrollbar.verticalScrollbarSize": 25, // 垂直スクロールバーのサイズ
+  "editor.scrollbar.verticalScrollbarSize": 15,
   "editor.scrollbar.vertical": "visible",
   "editor.renderWhitespace": "selection",
   "editor.formatOnPaste": false, // ペースト時に自動でフォーマット

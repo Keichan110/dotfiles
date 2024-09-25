@@ -151,7 +151,7 @@
   "editor.formatOnSave": true, // 保存した時に自動でフォーマット
   "editor.copyWithSyntaxHighlighting": false,
   "editor.renderControlCharacters": true, // 制御文字を表示する
-  "editor.renderLineHighlight": "all", // 選択行の行番号をハイライトする
+  "editor.renderLineHighlight": "none",
   "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅するように
   "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示する
   "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定

@@ -27,7 +27,7 @@
   },
   // VSCodeVim
   "vim.easymotion": false, // 基本的な動作を覚えるため一旦無効化
-  "vim.surround": false, // 基本的な動作を覚えるため一旦無効化
+  "vim.surround": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
   "vim.timeout": 500, // 入力のタイムアウト

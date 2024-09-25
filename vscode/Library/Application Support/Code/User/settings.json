@@ -18,16 +18,12 @@
   "workbench.editor.tabSizingFixedMinWidth": 75,
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "bottom",
-  "workbench.statusBar.visible": false,
   "workbench.tree.indent": 14,
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.colorCustomizations": {
-    "statusBar.background": "#3B4252",
-    "statusBar.noFolderBackground": "#3B4252",
-    "statusBar.debuggingBackground": "#3B4252",
-    "statusBar.foreground": "#D8DEE9",
-    "statusBar.debuggingForeground": "#D8DEE9",
-    "editorIndentGuide.background1": "#2E3440"
+    "editorIndentGuide.background1": "#2E3440",
+    "statusBar.background": "#2E3440",
+    "statusBar.border": "#3B4252"
   },
   // VSCodeVim
   "vim.easymotion": false, // 基本的な動作を覚えるため一旦無効化
@@ -58,14 +54,6 @@
   "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
   "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
   "vim.autoSwitchInputMethod.enable": true,
-  // Status Bar
-  "vim.statusBarColorControl": true,
-  "vim.statusBarColors.normal": ["#3B4252", "#D8DEE9"],
-  "vim.statusBarColors.insert": ["#88C0D0", "#3B4252"],
-  "vim.statusBarColors.visual": ["#8FBCBB", "#3B4252"],
-  "vim.statusBarColors.replace": ["#B48EAD", "#3B4252"],
-  "vim.statusBarColors.commandlineinprogress": ["#81A1C1", "#3B4252"],
-  "vim.statusBarColors.searchinprogressmode": ["#81A1C1", "#3B4252"],
   // Vim Insert Mode Key Bindings
   "vim.insertModeKeyBindings": [
     // ESCの代用

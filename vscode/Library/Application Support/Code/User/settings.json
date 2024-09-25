@@ -145,6 +145,7 @@
   "editor.cursorSmoothCaretAnimation": "on", // カーソルの点滅をアニメーション表示する
   "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
   "editor.glyphMargin": false,
+  "editor.showFoldingControls": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.selectionHighlight": false,
   // ガイドライン

@@ -26,3 +26,5 @@ git config --global alias.ll "log --name-status --oneline"
 git config --global alias.tree "log --graph --pretty=format:\'%x09%C(auto) %h %Cgreen %ad %Creset%x09by\"%C(cyan ul)%an%Creset\" %x09%C(auto)%s %d\'"
 git config --global alias.unstage "reset HEAD"
 git config --global alias.al "config --get-regexp ^alias\."
+git config --global alias.brc "!git branch --merged | grep -i -v -E 'main|master|develop' | xargs git branch -d"
+

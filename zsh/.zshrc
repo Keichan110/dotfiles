@@ -13,7 +13,7 @@ path=(
 [[ ! -f ~/.zaliases ]] || source ~/.zaliases # import aliases
 bindkey -e # Ctrl+AやCtrl+Bが^Aのようになる対策
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh # asdf
+eval "$(mise activate zsh)"
 
 export EDITOR='vim' # editor
 

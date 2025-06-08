@@ -1,5 +1,5 @@
 #!/bin/zsh
-stow alacritty asdf emacs powerlevel10k tmux vscode wezterm zsh -t ${HOME} -v --no-folding
+stow alacritty emacs powerlevel10k tmux vscode wezterm zsh -t ${HOME} -v --no-folding
 
 # alacritty-theme
 target_dir=".config/alacritty/themes"

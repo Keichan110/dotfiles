@@ -362,7 +362,7 @@
   "github.gitProtocol": "ssh",
   "update.showReleaseNotes": false,
   "github.copilot.chat.localeOverride": "ja",
-  "rdbg.rubyVersionManager": "asdf",
+  "rdbg.rubyVersionManager": "none",
   "sorbet.lspConfigs": [
     {
       "id": "stable",

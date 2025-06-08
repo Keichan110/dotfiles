@@ -1,5 +1,5 @@
 # Do everything.
-all: init link defaults brew asdf git
+all: init link defaults brew git
 
 # Set initial preference.
 init:
@@ -16,10 +16,6 @@ defaults:
 # Install macOS applications.
 brew:
 	.bin/brew.sh
-
-# Install asdf applications.
-asdf:
-	.bin/asdf.sh
 
 # Setup git alias
 git:

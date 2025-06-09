@@ -373,6 +373,7 @@
     }
   ],
   "github.copilot.editor.enableAutoCompletions": true,
+  "material-icon-theme.saturation": 0.25,
   "apc.statusBar": {
     "height": 22,
     "fontSize": 11,

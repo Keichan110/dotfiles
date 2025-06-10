@@ -339,8 +339,6 @@
     "langId": "markdown",
     "name": "vsnote_template_memo"
   },
-  // Tabnine
-  "tabnine.experimentalAutoImports": true,
   // LiveServer
   "liveServer.settings.CustomBrowser": "chrome",
   //

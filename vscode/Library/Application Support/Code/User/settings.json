@@ -106,6 +106,15 @@
       "before": [":"],
       "after": [";"]
     },
+    // undo, redoをVSCodeのデフォルトの機能に
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    },
     // x,sキーで文字削除した際にクリップボードに書き込まれないようにする
     {
       "before": ["x"],

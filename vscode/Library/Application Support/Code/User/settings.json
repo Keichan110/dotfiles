@@ -114,6 +114,15 @@
     {
       "before": ["s"],
       "after": ["\"", "_", "s"]
+    },
+    // j,kキーで表示通りに移動る
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
     }
   ],
   // Vim Visual Mode Key Bindings

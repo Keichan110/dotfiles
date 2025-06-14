@@ -105,6 +105,15 @@
     {
       "before": [":"],
       "after": [";"]
+    },
+    // x,sキーで文字削除した際にクリップボードに書き込まれないようにする
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
+    },
+    {
+      "before": ["s"],
+      "after": ["\"", "_", "s"]
     }
   ],
   // Vim Visual Mode Key Bindings

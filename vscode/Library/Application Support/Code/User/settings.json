@@ -123,6 +123,23 @@
     {
       "before": ["k"],
       "after": ["g", "k"]
+    },
+    // 検索の際に選択されている単語を中央に
+    {
+      "before": ["n"],
+      "after": ["n", "z", "z"]
+    },
+    {
+      "before": ["N"],
+      "after": ["N", "z", "z"]
+    },
+    {
+      "before": ["*"],
+      "after": ["*", "z", "z"]
+    },
+    {
+      "before": ["#"],
+      "after": ["#", "z", "z"]
     }
   ],
   // Vim Visual Mode Key Bindings

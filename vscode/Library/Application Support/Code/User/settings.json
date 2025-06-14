@@ -149,6 +149,15 @@
     {
       "before": ["#"],
       "after": ["#", "z", "z"]
+    },
+    // Leader + cで1行コメントアウト
+    {
+      "before": ["<Leader>", "c"],
+      "commands": [
+        {
+          "command": "editor.action.commentLine"
+        }
+      ]
     }
   ],
   // Vim Visual Mode Key Bindings

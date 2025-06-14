@@ -180,6 +180,16 @@
           "args": []
         }
       ]
+    },
+    // Leader + iで行頭に移動
+    {
+      "before": ["<Leader>", "l"],
+      "after": ["$"]
+    },
+    // Leader + hで行末に移動
+    {
+      "before": ["<Leader>", "h"],
+      "after": ["^"]
     }
   ],
   // Vim Visual Mode Key Bindings

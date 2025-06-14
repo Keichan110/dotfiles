@@ -169,6 +169,17 @@
           "args": []
         }
       ]
+    },
+    // Leader + qでファイルを閉じる
+    {
+      "before": ["<Leader>", "q"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.closeActiveEditor",
+          "args": []
+        }
+      ]
     }
   ],
   // Vim Visual Mode Key Bindings

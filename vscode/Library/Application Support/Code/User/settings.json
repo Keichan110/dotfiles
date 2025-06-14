@@ -6,6 +6,7 @@
   "window.titleBarStyle": "custom",
   "window.title": "${activeRepositoryName} - ${activeRepositoryBranchName}",
   "window.density.editorTabHeight": "compact",
+  "window.expermental.useGpuAcceleration": true,
   // Files
   "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
   "files.trimTrailingWhitespace": true,

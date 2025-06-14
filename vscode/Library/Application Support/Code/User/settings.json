@@ -10,6 +10,14 @@
   "files.trimFinalNewlines": true, // ファイルの末尾を改行で終わらせる
   "files.trimTrailingWhitespace": true,
   "files.autoGuessEncoding": true,
+  // 監視除外対象
+  "files.watcherExclude": {
+    "/.git/objects/": true,
+    "/.git/subtree-cache/": true,
+    "/node_modules/": true,
+    "/.next/": true,
+    "/.cache/": true
+  },
   "workbench.settings.editor": "json", // defaultでsettings.jsonを開く
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",

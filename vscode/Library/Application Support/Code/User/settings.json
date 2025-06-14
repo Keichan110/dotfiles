@@ -158,6 +158,17 @@
           "command": "editor.action.commentLine"
         }
       ]
+    },
+    // Leader + wでファイルを保存
+    {
+      "before": ["<Leader>", "w"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.files.save",
+          "args": []
+        }
+      ]
     }
   ],
   // Vim Visual Mode Key Bindings

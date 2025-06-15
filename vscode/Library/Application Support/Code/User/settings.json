@@ -68,10 +68,10 @@
   "vim.highlightedyank.color": "#5E81AC",
   "vim.highlightedyank.duration": 700,
   // 入力切り替え
-  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
-  "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/true",
-  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
   "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/opt/homebrew/bin/im-select",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
   // Vim Insert Mode Key Bindings
   "vim.insertModeKeyBindings": [
     // ESCの代用

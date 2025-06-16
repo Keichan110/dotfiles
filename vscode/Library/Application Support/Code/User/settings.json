@@ -252,8 +252,7 @@
   "editor.showFoldingControls": "never",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.selectionHighlight": false,
-  // ガイドライン
-  "editor.rulers": [100, 120],
+  // "editor.rulers": [100, 120], // ガイドライン
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {

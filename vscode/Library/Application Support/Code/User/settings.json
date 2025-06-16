@@ -227,7 +227,7 @@
   "editor.wordWrapColumn": 120,
   "editor.fontFamily": "PlemolJP, HackGen-Regular, Cica",
   "editor.fontSize": 14.5,
-  "editor.lineHeight": 1.7,
+  "editor.lineHeight": 1.85,
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.smoothScrolling": true,
   "editor.minimap.side": "left", // ミニマップの表示位置

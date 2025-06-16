@@ -221,7 +221,7 @@
   ],
   // Editor
   "editor.cursorStyle": "block",
-  "editor.cursorSurroundingLines": 7, // カーソル周辺の表示範囲
+  "editor.cursorSurroundingLines": 15, // カーソル周辺の表示範囲
   "editor.tabSize": 2,
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,

@@ -318,7 +318,7 @@
     "eslint.autoFixOnSave": true
   },
   // Terminal
-  "terminal.external.osxExec": "Alacritty.app",
+  "terminal.external.osxExec": "WezTerm.app",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.fontFamily": "'PlemolJP Console', 'HackGen Console', 'Cica'",

@@ -19,6 +19,8 @@
     "/.next/": true,
     "/.cache/": true
   },
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
   "workbench.settings.editor": "json", // defaultでsettings.jsonを開く
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",

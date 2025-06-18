@@ -35,6 +35,7 @@ cask "postman"
 cask "raycast"
 cask "alacritty"
 cask "wezterm"
+cask "cursor"
 
 # Font
 cask "font-hackgen"

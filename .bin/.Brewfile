@@ -36,6 +36,7 @@ cask "raycast"
 cask "alacritty"
 cask "wezterm"
 cask "cursor"
+cask "obsidian"
 
 # Font
 cask "font-hackgen"

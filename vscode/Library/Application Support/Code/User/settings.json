@@ -169,6 +169,16 @@
         }
       ]
     },
+    // Leader + eでサイドパネルをトグル
+    {
+      "before": ["<Leader>", "e"],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.toggleSidebarVisibility"
+        }
+      ]
+    },
     // Leader + wでファイルを保存
     {
       "before": ["<Leader>", "w"],

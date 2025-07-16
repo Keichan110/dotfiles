@@ -107,15 +107,6 @@
   ],
   // Vim Normal Mode Key Bindings
   "vim.normalModeKeyBindingsNonRecursive": [
-    // ;, :を入れ替える
-    {
-      "before": [";"],
-      "after": [":"]
-    },
-    {
-      "before": [":"],
-      "after": [";"]
-    },
     // undo, redoをVSCodeのデフォルトの機能に
     {
       "before": ["u"],
@@ -218,15 +209,6 @@
     {
       "before": ["j", "k"],
       "after": ["<Esc>"]
-    },
-    // ;, :を入れ替える
-    {
-      "before": [";"],
-      "after": [":"]
-    },
-    {
-      "before": [":"],
-      "after": [";"]
     }
   ],
   // Editor

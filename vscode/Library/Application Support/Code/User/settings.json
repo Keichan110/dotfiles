@@ -52,6 +52,7 @@
   "vim.timeout": 500, // 入力のタイムアウト
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.smartcase": true,
   "vim.visualstar": true, // *でカーソル上のワードを検索
   "vim.handleKeys": {
     "<C-n>": false,

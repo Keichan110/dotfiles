@@ -25,6 +25,7 @@ brew "fd"
 brew "ripgrep"
 brew "procs"
 brew "mise"
+brew "starship"
 
 # Desktop App
 cask "visual-studio-code"

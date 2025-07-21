@@ -7,6 +7,8 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+config.automatically_reload_config = true
+
 -- Color
 config.color_scheme = 'nord'
 config.window_background_gradient = {
